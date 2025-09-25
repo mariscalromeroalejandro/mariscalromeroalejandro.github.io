@@ -1,0 +1,20 @@
+<svg width="300" height="120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo azul pastel -->
+  <rect width="300" height="120" fill="#B8D4F0" stroke="#7AB3E0" stroke-width="2"/>
+  
+  <!-- Círculo decorativo -->
+  <circle cx="60" cy="60" r="30" fill="#7AB3E0" opacity="0.7"/>
+  
+  <!-- Texto principal -->
+  <text x="150" y="50" font-family="Times New Roman, serif" font-size="28" font-weight="bold" fill="#2c3e50" text-anchor="middle">
+    MI EMPRESA
+  </text>
+  
+  <!-- Subtítulo -->
+  <text x="150" y="75" font-family="Times New Roman, serif" font-size="14" fill="#2c3e50" text-anchor="middle">
+    Gestión de Propiedades
+  </text>
+  
+  <!-- Línea decorativa -->
+  <line x1="100" y1="85" x2="200" y2="85" stroke="#7AB3E0" stroke-width="2"/>
+</svg>
