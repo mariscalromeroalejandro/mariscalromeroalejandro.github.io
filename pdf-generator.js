@@ -312,10 +312,9 @@ async function generateStyledPDF(formData) {
     const generator = new StyledPDFGenerator();
     const doc = await generator.generateStyledPDF(formData);
 
-    // Abrir PDF en nueva ventana
-    const pdfBlob = doc.output("blob");
-    const pdfUrl = URL.createObjectURL(pdfBlob);
-    window.open(pdfUrl, "_blank");
+    // Descargar PDF directamente
+    const fileName = `formulario_cliente_${formData.nombreCliente || 'cliente'}_${new Date().toISOString().split('T')[0]}.pdf`;
+    doc.save(fileName);
 
     return true;
   } catch (error) {

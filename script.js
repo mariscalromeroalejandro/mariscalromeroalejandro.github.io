@@ -719,7 +719,7 @@ Formulario enviado el: ${new Date().toLocaleString('es-ES')}
         // Crear el enlace mailto
         const subject = encodeURIComponent(`Nuevo Cliente: ${formData.nombreCliente}`);
         const body = encodeURIComponent(emailBody);
-        const mailtoLink = `mailto:alexmariscalromero@gmail.com?subject=${subject}&body=${body}`;
+        const mailtoLink = `mailto:macarena@lpropertym.com?subject=${subject}&body=${body}`;
         
         // Abrir el cliente de correo
         window.location.href = mailtoLink;
